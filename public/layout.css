@@ -1,0 +1,51 @@
+body{
+   background-image: url("images/bg3.jpg");
+   background-size: 70% nonRepeat;
+   background-color: #cccccc;
+}
+body::before{
+  -webkit-filter: blur(5px);
+   -o-filter: blur(5px);
+   -moz-filter: blur(5px);
+   filter: blur(5px);
+}
+.div-album{
+  width: 400px;
+  background-color: yellow;
+  padding: 5px;
+  margin: 5px;
+  border: solid 1px green;
+}
+hr{
+  visibility: hidden;
+}
+button{
+  margin-left: 2px;
+  padding: 5px 10px;
+  color: white;
+  background-color: #ff8000;
+  border-radius: 5px;
+  white-space: nowrap;
+  display: inline-block;
+  border-style: groove;
+  border-color: #800000;
+}
+p{
+  font-size: 22px;
+  color: #990000;
+  font-weight: bold;
+}
+.div-note{
+  width: 280px;
+  padding: 5px;
+  margin: 3px;
+  border: solid 1px #800000;
+  border-radius: 5px;
+}
+.div-list{
+  margin-left: 250px;
+  width: 300px;
+  padding: 5px;
+  border: solid 4px #800000;
+  border-radius: 5px;
+}
